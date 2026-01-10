@@ -45,9 +45,10 @@ Unlike many sandbox projects, this ecosystem uses a **Verified SES Production Id
 * `frontend/`: Static web assets and client-side logic.
 * `backend/lambda-functions/`: Python logic for database processing and email triggers.
 * `infrastructure/`: 
-    * `iam-policies/`: JSON definitions for security roles.
-    * `cloudfront/`: Edge logic for domain redirection.
+    * `iam-policies/`: JSON definitions for Lambda execution and trust relationships.
+    * `s3-policies/`: JSON definitions for the bucket's public read access permissions.
+    * `cloudfront/`: Edge logic for domain redirection and traffic splitting.
     * `MANUAL_STEPS.md`: Comprehensive guide of the AWS Console configuration.
 
 ## 🚀 How to Deploy
-Detailed manual configuration steps can be found in the [Infrastructure Manual](./infrastructure/MANUAL_STEPS.md).
+Detailed manual configuration steps can be found in the [Infrastructure Manual](./infrastructure/MANUAL_STEPS.md)
