@@ -1,6 +1,6 @@
 # Serverless Multi-Cloud Waitlist Ecosystem 
 
-![Architecture Diagram](./infrastructure/Architecture.png)
+
 
 A high-availability, cost-optimized serverless architecture bridging **AWS**, **Google Cloud**, and **Zoho** to manage an elite gaming waitlist.
 
