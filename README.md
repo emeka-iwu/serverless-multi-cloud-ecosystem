@@ -26,6 +26,7 @@ This project demonstrates a sophisticated multi-cloud routing strategy:
 | **Compute** | AWS Lambda (Python 3.12) |
 | **API** | Amazon API Gateway (HTTP API) |
 | **Database** | Amazon Aurora Serverless v2 (PostgreSQL) |
+| **Messaging** | AWS Simple Email Service |
 | **Security** | AWS IAM (Least Privilege), AWS Secrets Manager, ACM (SSL/TLS) |
 
 ## ✨ Key Features & Engineering Decisions
